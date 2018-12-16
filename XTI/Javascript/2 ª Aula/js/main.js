@@ -1,3 +1,5 @@
+// captura a div onde ficara a img
+var div = document.getElementById('description-initial');
 // Atribui as img da lampada acessa e apagada a suas variaveis
 var lampadaAcessa =  'https://www.w3schools.com/js/pic_bulbon.gif';
 var lampadaApagada = 'https://www.w3schools.com/js/pic_bulboff.gif';
@@ -7,7 +9,7 @@ div.innerHTML = `<img id="img" onclick="ligaDesliga(this.id)" src="${lampadaApag
 function ligaDesliga(id) {    
     // define a tag img para a variavel img
     var img = document.getElementById('img');
-    // valida o atribuito src da img na hora do click
+    // falida o atribuito src da img na hora do click
     if(img.src == lampadaApagada){
         // Se for verdade ela acende
         img.src = `${lampadaAcessa}`;
