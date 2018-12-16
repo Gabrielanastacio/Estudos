@@ -7,7 +7,7 @@ div.innerHTML = `<img id="img" onclick="ligaDesliga(this.id)" src="${lampadaApag
 function ligaDesliga(id) {    
     // define a tag img para a variavel img
     var img = document.getElementById('img');
-    // falida o atribuito src da img na hora do click
+    // valida o atribuito src da img na hora do click
     if(img.src == lampadaApagada){
         // Se for verdade ela acende
         img.src = `${lampadaAcessa}`;
