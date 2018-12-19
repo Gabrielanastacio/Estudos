@@ -1,0 +1,9 @@
+#description-initial{
+    display: block;
+    margin: 20px auto;
+}
+
+
+#description-initial, div{
+    margin: 10px;
+}

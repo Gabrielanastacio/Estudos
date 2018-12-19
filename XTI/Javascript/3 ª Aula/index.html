@@ -3,14 +3,32 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>2ª Aula</title>
+    <title>3ª Aula</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 </head>
 <body>
-    <div id="description-initial"></div>      
-        
+    <div id="description-initial">
+        <div id="containerValores">
+            <div id="valorInicial">
 
+                <label for="primeiroValor">Primeiro Valor</label>
+                <input type="number" name="primeiroValor" id="primeiroValor">
+
+            </div>
+            <div id="valorSecundario">
+
+                    <label for="segundoValor">Segundo Valor</label>
+                    <input type="number" name="segundoValor" id="segundoValor">
+
+            </div>
+        </div>
+        <div>
+
+            <button type="button" name="soma" onclick="calcular(primeiroValor,segundoValor)" id="somar">calcular</button>
+        
+        </div>
+    </div>      
     <script src="js/main.js"></script>
 </body>
 </html>
